@@ -18,6 +18,9 @@
 * Shows content differences between two branches <br/>
 `git diff [first-branch]...[second-branch]`
 
+* Shows modified files in current directory, staged for your next commit <br/>
+`git status`
+
 * Snapshots the file in preparation for versioning (use * for [file] for adding everything) <br/>
 `git add [file]`
 

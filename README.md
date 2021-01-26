@@ -21,8 +21,11 @@
 * Shows modified files in current directory, staged for your next commit <br/>
 `git status`
 
-* Snapshots the file in preparation for versioning (use * for [file] for adding everything) <br/>
+* Adds the modified file to stage for a commit (use * for [file] for adding everything) <br/>
 `git add [file]`
+
+* Restores the modified file to its previous version (use * for [file] for restoring everything) <br/>
+`git restore [file]`
 
 * Records file snapshots permanently in version history <br/>
 `git commit -m "[descriptive message]"`

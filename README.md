@@ -10,6 +10,12 @@
 * Matchs a remote URL with a specified name <br/>
 `git remote add [remote-name] [url]`
 
+* Gets the remote URL given a specified name <br/>
+`git remote get-url [remote-name]`
+
+* Sets a remote URL given a specified name <br/>
+`git remote set-url [remote-name]`
+
 ## 2. Making Changes
 
 * Lists version history for the current branch <br/>
